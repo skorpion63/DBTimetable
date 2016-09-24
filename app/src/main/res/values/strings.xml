@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DB Timetable</string>
+    <string name="db_transport">DB Transport</string>
+    <string name="ferry_to_central">Ferry to Central</string>
+    <string name="ferry_from_central">Ferry from Central</string>
+    <string name="buses_from_plaza">Buses from Plaza</string>
+</resources>
