@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class toCentral extends AppCompatActivity {
+public class fromCentral extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,17 +15,13 @@ public class toCentral extends AppCompatActivity {
 
         final ArrayList<String> toCentral1 = new ArrayList<String>();
 
-        toCentral1.add("Leaves at 6:00 am");
         toCentral1.add("Leaves at 6:30 am");
-        toCentral1.add("Leaves at 6:45 am");
         toCentral1.add("Leaves at 7:00 am");
-        toCentral1.add("Leaves at 7:15 am");
-        toCentral1.add("Leaves at 7:30 am");
-        toCentral1.add("Leaves at 7:45 am");
+        toCentral1.add("Leaves at 7:20 am");
+        toCentral1.add("Leaves at 7:40 am");
         toCentral1.add("Leaves at 8:00 am");
-        toCentral1.add("Leaves at 8:15 am");
-        toCentral1.add("Leaves at 8:30 am");
-        toCentral1.add("Leaves at 8:50 am");
+        toCentral1.add("Leaves at 8:20 am");
+        toCentral1.add("Leaves at 8:40 am");
         toCentral1.add("Leaves at 9:10 am");
         toCentral1.add("Leaves at 9:40 am");
         toCentral1.add("Leaves at 10:10 am");
@@ -39,15 +35,16 @@ public class toCentral extends AppCompatActivity {
         toCentral1.add("Leaves at 2:10 pm");
         toCentral1.add("Leaves at 2:40 pm");
         toCentral1.add("Leaves at 3:10 pm");
-        toCentral1.add("Leaves at 3:40 pm");
+        toCentral1.add("Leaves at 3:30 pm");
+        toCentral1.add("Leaves at 3:50 pm");
         toCentral1.add("Leaves at 4:10 pm");
         toCentral1.add("Leaves at 4:40 pm");
         toCentral1.add("Leaves at 5:10 pm");
         toCentral1.add("Leaves at 5:40 pm");
-        toCentral1.add("Leaves at 6:00 pm");
-        toCentral1.add("Leaves at 6:20 pm");
-        toCentral1.add("Leaves at 6:40 pm");
-        toCentral1.add("Leaves at 7:00 pm");
+        toCentral1.add("Leaves at 6:10 pm");
+        toCentral1.add("Leaves at 6:30 pm");
+        toCentral1.add("Leaves at 6:50 pm");
+        toCentral1.add("Leaves at 7:10 pm");
         toCentral1.add("Leaves at 7:30 pm");
         toCentral1.add("Leaves at 8:00 pm");
         toCentral1.add("Leaves at 8:30 pm");
@@ -59,15 +56,15 @@ public class toCentral extends AppCompatActivity {
         toCentral1.add("Leaves at 11:30 pm");
         toCentral1.add("Leaves at 12:00 am");
         toCentral1.add("Leaves at 12:30 am");
-        toCentral1.add("Leaves at 1:20 am");
-        toCentral1.add("Leaves at 2:50 am");
-        toCentral1.add("Leaves at 4:20 am");
+        toCentral1.add("Leaves at 1:00 am");
+        toCentral1.add("Leaves at 2:00 am");
+        toCentral1.add("Leaves at 3:30 am");
+        toCentral1.add("Leaves at 5:00 am");
 
         customAdapter adapter = new customAdapter(this, toCentral1);
 
 
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
-
     }
 }

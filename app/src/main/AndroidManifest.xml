@@ -15,11 +15,47 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".toCentral"
+        <activity
+            android:name=".toCentral"
             android:label="Weekdays To Central"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".toCentralSunday"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".toCentralSunday"
             android:label="Sunday To Central"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".toCentralSaturday"
+            android:label="Saturday To Central"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fromCentral"
+            android:label="Weekdays From Central"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fromCentralSaturday"
+            android:label="Saturday From Central"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fromCentralSunday"
+            android:label="Sunday From Central"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".dB01R"
+            android:label="To Tung Chung"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".dB01Rb"
+            android:label="From Tung Chung"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".dB02R"
+            android:label="To Airport"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".dB02Rb"
+            android:label="From Airport"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".dB03R"
+            android:label="To Sunny Bay"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".dB03Rb"
+            android:label="From Sunny Bay"
             android:parentActivityName=".MainActivity"></activity>
     </application>
 
