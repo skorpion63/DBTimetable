@@ -15,8 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".toCentral" />
-        <activity android:name=".toCentralSunday"></activity>
+        <activity android:name=".toCentral"
+            android:label="Weekdays To Central"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".toCentralSunday"
+            android:label="Sunday To Central"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
